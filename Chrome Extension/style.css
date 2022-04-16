@@ -1,0 +1,84 @@
+*{
+   margin:0;
+   padding:0;
+}
+.body{
+    width: 280px; 
+    height: 280px;
+    background-color: rgb(40,40,40);
+    color: azure;
+}
+.body p{
+    font-family: 'Roboto', sans-serif;
+    padding: 8px;
+    text-align: center;
+    font-size: 16px;
+    background-color: rgb(80,80,80);
+    font-weight: 800;
+}
+.Invitation{
+    margin: 14px 80px;
+    font-family: 'Roboto', sans-serif;
+    padding: 8px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+}
+.container {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(40,40,40);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 30%;
+    border-radius: 8px;
+    display: grid;
+    place-items: center;
+  }
+  .circular-progress {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+  }
+  .circular-progress:before {
+    content: "";
+    position: absolute;
+    height: 84%;
+    width: 84%;
+    background-color: rgb(40,40,40);
+    color: white;
+    border-radius: 50%;
+  }
+  .value-container {
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    color: white;
+  }
+  #btn{
+    margin-top: 20px;
+    width: 200px;
+    height: 38px;
+    border-radius: 5px;
+    background-color: rgb(144, 220, 134);
+    border: 2px solid rgb(144, 220, 134);
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    font-weight: 800;
+    cursor: pointer;
+    
+  }
+  #btn:focus{
+      border: 2px solid rgb(100, 149, 237);
+  }
+#btn:hover{
+  background-color: rgb(144, 238, 134);
+  border: 2px solid rgb(144, 238, 134);
+}
+  
